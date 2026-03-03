@@ -1,21 +1,21 @@
-# 🌍 Interactive 3D Globe
+# Interactive 3D Globe
 
 A beautiful, interactive 3D globe component built with React, Next.js, and HTML5 Canvas. Features smooth animations, draggable rotation, and customizable global network visualizations.
 
 ![Demo](https://img.shields.io/badge/demo-live-brightgreen) ![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue) ![Next.js](https://img.shields.io/badge/Next.js-14-black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38bdf8)
 
-## ✨ Features
+## Features
 
-- 🎨 **Fully Customizable** - Colors, sizes, markers, and connections
-- 🖱️ **Interactive** - Drag to rotate the globe
-- ⚡ **Performant** - Smooth 60fps animations using Canvas API
-- 🎯 **TypeScript** - Full type safety
-- 🌙 **Dark Mode** - Built-in dark theme support
-- 📱 **Responsive** - Adapts to any screen size
-- 🎭 **Animated Arcs** - Flowing connections between locations
-- 💫 **Pulsing Markers** - Eye-catching location indicators
+- **Fully Customizable** - Colors, sizes, markers, and connections
+- **Interactive** - Drag to rotate the globe
+- **Performant** - Smooth 60fps animations using Canvas API
+- **TypeScript** - Full type safety
+- **Dark Mode** - Built-in dark theme support
+- **Responsive** - Adapts to any screen size
+- **Animated Arcs** - Flowing connections between locations
+- **Pulsing Markers** - Eye-catching location indicators
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -38,7 +38,7 @@ npm run build
 npm start
 ```
 
-## 📦 Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript
@@ -46,7 +46,7 @@ npm start
 - **Rendering:** HTML5 Canvas API
 - **Theme:** next-themes
 
-## 🎮 Usage
+## Usage
 
 ### Basic Usage
 
@@ -89,7 +89,7 @@ export default function Page() {
 }
 ```
 
-## ⚙️ Component Props
+## Component Props
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
@@ -102,7 +102,7 @@ export default function Page() {
 | `connections` | `Array` | See default | Array of `{from: [lat, lng], to: [lat, lng]}` |
 | `markers` | `Array` | See default | Array of `{lat, lng, label?}` |
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 3d-globe/
@@ -119,7 +119,7 @@ export default function Page() {
 └── ...config files
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Change Theme Colors
 
@@ -140,15 +140,15 @@ npx shadcn-ui@latest add button
 npx shadcn-ui@latest add card
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to submit issues and pull requests.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [Next.js](https://nextjs.org/)
 - Styled with [Tailwind CSS](https://tailwindcss.com/)
@@ -156,4 +156,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ using React and Canvas
+Made with React and Canvas
